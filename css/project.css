@@ -1,0 +1,88 @@
+.project-section{
+    height: 100%;
+    overflow-wrap: break-word;
+    position: relative;
+    text-align: center;
+}
+
+.project-section h2{
+    font-family: "dancing script";
+    font-size: 40px;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projects .container .project{
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    height: 350px;
+    margin: 10px;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.projects .container .project .head img{
+    width: 50%;
+}
+
+.projects .container .project .head h3{
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.projects .container .project .head p{
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.projects .container .project .footer{
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.projects .container .project .footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.projects .container .project .footer ul li{
+    margin: 0 10px 0 0;
+    
+}
+
+.projects .container .project .footer ul li img:hover{
+    border: 1px solid #04AA6D;
+}
+
+.projects .container .project .footer ul li a{
+    color: currentColor;
+}
+
+.projects .container .project .footer ul li img{
+    width: 30px;
+    padding: 10px;
+    border: 1px solid #0b434c;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .project-section{
+        padding-top: 70px;
+        text-align: center;
+    }
+    .project-section h2{
+        font-family: "dancing script";
+        font-size: 40px;
+    }
+}

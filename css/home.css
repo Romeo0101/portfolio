@@ -1,0 +1,84 @@
+.home-section{
+    height: 100%;
+    overflow-wrap: break-word;
+    position: relative;
+}
+
+.container .row{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.container .row .home-text h1{
+    font-size: 57px;
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.container .row .home-img img{
+    width: 530px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.container .row .home-text button{
+    padding: 10px 15px 10px 15px;
+    font-family: ''Poppins', 'sans-serif'';
+    font-size: 15px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.container .row .home-text button:hover{
+    border: 1px solid #04AA6D;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+.container .row .home-text .social-links ul{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.container .row .home-text .social-links ul li a{
+    margin-right: 20px;
+}
+
+.container .row .home-text .social-links ul li svg:hover{
+    fill: #04AA6D;
+}
+
+@media screen and (max-width : 600px) {
+
+    .home-section .home .container .row{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 100px;
+    }
+    .home-section .home .container .row .home-text{
+        width: 100%;
+        text-align: center;
+    }
+    .home-section .home .container .row .home-img{
+        width: 100%;
+    }
+
+    .home-section .home .container .row .home-img img{
+        display: none;
+    }
+
+    .container .row .home-text .social-links ul{
+        display: flex;
+        justify-content: center;
+    }
+}

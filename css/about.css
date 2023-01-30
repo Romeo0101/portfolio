@@ -1,0 +1,105 @@
+.about-section{
+    position: relative;
+}
+
+.about{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .container .img{
+    padding: 10px;
+    width: 450px;
+}
+
+.about .container .img img{
+    width: 80%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    		clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.about .container .about-text{
+    width: 400px;
+    padding: 10px;
+}
+
+.about .container .about-text h1{
+    font-family: 'Dancing Script';
+    font-size: 40px;
+}
+
+.about .container .about-text h1, h4{
+    margin: 0;
+    padding: 0;
+}
+
+.about .container .about-text .stack ul{
+    padding: 0;
+    margin: 10px 0 0 0;
+    list-style: none;
+}
+
+.about .container .about-text .stack ul li{
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.about .container .about-text .stack ul li img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.downloadBtn{
+    padding: 10px 15px 10px 15px;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 15px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.downloadBtn:hover{
+    border: 1px solid #04AA6D;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .about-section{
+        height: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .about-section .about .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about .container .img{
+        text-align: center;
+    }
+
+    .about .container .img img{
+        width: 70%;
+    }
+
+    .about{
+        padding-top: 200px ;
+    }
+}

@@ -1,0 +1,100 @@
+.contact, .home, .about{
+    height: 100vh;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-footer{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-footer .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.main-footer .row ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-footer .row .logo h3{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family: "Dancing Script";
+}
+
+.main-footer .row .social-links ul li{
+    display: inline;
+}
+
+.main-footer .row .social-links ul li a{
+    margin-right: 10px;
+}
+
+@media screen and (max-width : 600px) {
+    
+    *{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        font-family: 'Poppins',sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-footer{
+        position: relative;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main-footer .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    .main-footer .row ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .main-footer .row .logo h3{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        font-family: "Dancing Script";
+    }
+    
+    .main-footer .row .social-links ul li{
+        display: inline;
+    }
+    
+    .main-footer .row .social-links ul li a{
+        margin-right: 10px;
+    }
+}
